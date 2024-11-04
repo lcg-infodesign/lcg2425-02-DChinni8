@@ -9,8 +9,8 @@ function draw() {
   // Dimensione e posizione del cerchio esterno
   let size = 50;
   let spacing = 80;
-  let XnColonne = windowWidth/(size+spacing)/1.2; // Numero colonne
-  let YnRighe = windowHeight/(size+spacing)/1.2; // Numero righe
+  let XnColonne = windowWidth/(size+spacing)/1.5; // Numero colonne
+  let YnRighe = windowHeight/(size+spacing)/1.5; // Numero righe
 
   // Calcolo della larghezza e dell'altezza totali della griglia
   let gridWidth = (XnColonne * (size + spacing));
